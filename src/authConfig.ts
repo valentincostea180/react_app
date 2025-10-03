@@ -4,7 +4,7 @@ export const msalConfig = {
   auth: {
     clientId: "da2fe000-2f2b-41cf-88ea-52bde108dfab", // From Azure App Registration
     authority:
-      "https://login.microsoftonline.com/3254b3f5-f67a-45e9-862d-6cb27e654f12", // common Or "3254b3f5-f67a-45e9-862d-6cb27e654f12"
+      "https://login.microsoftonline.com/id", // common Or "id"
     redirectUri: "http://localhost:5173", // Your app's URL
   },
   cache: {
@@ -39,7 +39,7 @@ export const msalConfig = {
 };
 
 // List of allowed users
-export const allowedUsers = ["valentincostea180@gmail.com", "PMI6458@mdlz.com"];
+export const allowedUsers = ["personal@gmail.com", "lanid@mdlz.com"];
 
 // Scopes your app requires
 export const loginRequest = {
