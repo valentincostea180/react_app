@@ -1,0 +1,18 @@
+[
+  {
+    "operation": "GE",
+    "target": 80
+  },
+  {
+    "operation": "Waste",
+    "target": 3
+  },
+  {
+    "operation": "Volume Produced",
+    "target": 20
+  },
+  {
+  "operation": "Speed Loss",
+  "target": 5
+}
+]
